@@ -3,6 +3,8 @@ canvaspop-ios-library
 
 The CanvasPop iOS Library makes it easy to integrate Pop-up Store into your application.
 
+![lib-screenshot](https://cp-static.s3.amazonaws.com/popupstore/documentation/lib-screenshot.png)
+
 **Current version:** 1.0.0 [(download)](https://github.com/canvaspop/canvaspop-ios-library/archive/master.zip)
 
 ## Installation
@@ -12,9 +14,18 @@ Installing PopUpLibLib.framework is simple.
 1. [Download the repo](https://github.com/canvaspop/canvaspop-ios-library/archive/master.zip) from github
 
 2. Drag `PopUpLib.bundle` and `PopUpLib.framework` into your project.
+    
+    ![lib-copy](https://cp-static.s3.amazonaws.com/popupstore/documentation/lib1.png)
+
 
 3. In the Build Phases tab of your app's Target, under the "Link Binary With Libraries" section, hit the add button and add: **MobileCoreServices.framework**, **CFNetwork.framework**, **SystemConfiguration.framework**, **libz.dylib**
 
+    ![lib-dep1](https://cp-static.s3.amazonaws.com/popupstore/documentation/lib2.png)
+    ![lib-dep1](https://cp-static.s3.amazonaws.com/popupstore/documentation/lib3.png)
+    ![lib-dep1](https://cp-static.s3.amazonaws.com/popupstore/documentation/lib4.png)
+    ![lib-dep1](https://cp-static.s3.amazonaws.com/popupstore/documentation/lib5.png)
+
+    
 If you encounter any issues, please feel free to report them here: https://github.com/canvaspop/canvaspop-ios-library/issues
 
 ## Integration
@@ -33,7 +44,7 @@ There are two main files included with the framework.
     @interface ViewController : UIViewController <PopupStoreControllerDelegate> {
     }
     ````
-2. Instantiate a PopupStoreController. If one was created successfully (i.e. the call did not return `nil`), present the Pop-up Store controller.
+2. At the desired time (e.g. tapping a button, after taking/editing a photo), instantiate a PopupStoreController. If one was created successfully (i.e. the call did not return `nil`), present the Pop-up Store controller.
 
     **Parameters**
     - `image` - the image that will be printed on canvas
@@ -50,7 +61,7 @@ There are two main files included with the framework.
         [self presentViewController:controller animated:YES completion:NULL];
     }
     ````
-3. Implement the `PopupStoreControllerDelegate` protocol. There are currently five optional and one required delegate methods. They are as follows:
+3. Implement the `PopupStoreControllerDelegate` protocol. There are currently six delegate methods; one that is required and five that may be optionally implemented. They are as follows:
     
     **Required**
 

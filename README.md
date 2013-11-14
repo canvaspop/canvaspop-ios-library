@@ -74,7 +74,7 @@ There are two main files included with the framework.
         /*
         * Here a user has opened the Pop-up Store controller successfully
         */
-        [self dismissViewControllerAnimated:YES completion:nil];
+        NSLog(@"Pop-up Store lib was opened");
     }
 
     - (void)popupStoreLibUserTappedContinue:(PopupStoreController *)lib

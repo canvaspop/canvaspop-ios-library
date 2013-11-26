@@ -2,7 +2,7 @@
 //  PopupStoreController.h
 //  PopUpLib
 //
-//  Created by Nick Barfoot @ CanvasPop on 11/1/2013.
+//  Created by CanvasPop on 11/1/2013.
 //  Copyright (c) 2013 CanvasPop. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  PopUpLib.h
 //  PopUpLib
 //
-//  Created by Nick Barfoot @ CanvasPop
+//  Created by CanvasPop
 //  Copyright (c) 2013 CanvasPop. All rights reserved.
 //
 

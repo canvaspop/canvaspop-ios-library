@@ -5,7 +5,7 @@ The CanvasPop iOS Library makes it easy to integrate Pop-up Store into your appl
 
 ![lib-screenshot](https://cp-static.s3.amazonaws.com/popupstore/documentation/lib-screenshot.png)
 
-**Current version:** 1.0.3 [(download)](https://github.com/canvaspop/canvaspop-ios-library/archive/master.zip)
+**Current version:** 1.0.4 [(download)](https://github.com/canvaspop/canvaspop-ios-library/archive/master.zip)
 
 ## Installation
 

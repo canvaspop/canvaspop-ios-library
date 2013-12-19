@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description = 'Allows app developers, brands, and website owners to monetize their visual content and make it easy for their customers to turn their images into beautiful canvas prints.'
   s.screenshots = [ "https://cp-static.s3.amazonaws.com/popupstore/documentation/photo-printing-api.jpg", "https://cp-static.s3.amazonaws.com/popupstore/documentation/lib-screenshot.png" ]
   s.author = { 'CanvasPop' => 'api.support@canvaspop.com' }
-  s.social_media_url = 'https://twitter.com/canvaspopapi'
+  # s.social_media_url = 'https://twitter.com/canvaspopapi'
   s.documentation_url = 'https://developers.canvaspop.com/documentation'
   s.homepage = 'https://github.com/canvaspop/canvaspop-ios-library'
   s.license = { :file => 'LICENSE', :type => 'Commercial' }

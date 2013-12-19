@@ -1,7 +1,13 @@
 canvaspop-ios-library
 =====================
 
-The CanvasPop iOS Library makes it easy to integrate Pop-up Store into your application.
+![api-overview](https://cp-static.s3.amazonaws.com/popupstore/documentation/photo-printing-api.jpg)
+
+Our Photo Printing API is a great way for app developers, brands, and website owners to monetize their visual content and make it easy for their customers to turn their images into beautiful canvas prints.
+ 
+The iOS library helps you integrate our Photo Printing API in less than half an hour! Follow the instructions provided below to integrate the library within your iOS application. The library is universal and works on both iPhone and iPad devices.
+ 
+Once a print is purchased within your application, our designers can turn any image into a big beautiful canvas. We print, package, and ship  all orders with love directly to your customers.
 
 ![lib-screenshot](https://cp-static.s3.amazonaws.com/popupstore/documentation/lib-screenshot.png)
 

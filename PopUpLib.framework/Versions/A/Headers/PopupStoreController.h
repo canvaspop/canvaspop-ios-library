@@ -24,6 +24,7 @@
 @interface PopupStoreController : UIViewController <UIWebViewDelegate>
 
 -(id)initWithImage:(UIImage *)image applicationKey:(NSString *)appKey delegate:(id <PopupStoreControllerDelegate>)aDelegate;
+-(void)setLibShouldShowStatusBar:(bool)showStatusBar;
 
 @property (nonatomic, weak) id <PopupStoreControllerDelegate> storeDelegate;
 @property (nonatomic, weak) NSString *applicationKey;

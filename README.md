@@ -81,6 +81,18 @@ There are two main files included with the framework.
         [self presentViewController:controller animated:YES completion:NULL];
     }
     ````
+    **Status Bar**
+    
+    The iOS library now provides support to show or hide the status when using PopupStoreController. By default the library will hide the status bar. If you wish to use this option you may set it with a `bool` value using the `setLibShouldShowStatusBar` method shown below.
+    
+    ````objective-c
+    PopupStoreController *popUpStoreController = [[PopupStoreController alloc] initWithImage:[UIImage imageNamed:@"your_descired_image.jpg"] applicationKey:YOUR_PARTNER_KEY delegate:self];
+    
+    [popUpStoreController setLibShouldShowStatusBar:<STATUS_BAR_PREFERENCE>];
+    
+    [self presentViewController:popUpStoreController animated:YES completion:NULL];
+    ````
+    
 3. Implement the `PopupStoreControllerDelegate` protocol. There are currently six delegate methods; one that is required and five that may be optionally implemented. They are as follows:
     
     **Required**

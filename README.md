@@ -13,7 +13,21 @@ Once a print is purchased within your application, our designers can turn any im
 
 **Current version:** 1.0.5 [(download)](https://github.com/canvaspop/canvaspop-ios-library/archive/master.zip)
 
-## Installation
+## Installation via Cocoapods
+
+Installing the library is simple and should only take a few minutes. This may be done manually or via [cocoapods](http://cocoapods.org/).
+
+Add the following to your Podfile: 
+
+````
+pod 'PopUpLib'
+````
+
+Run `pod install`
+
+This will give you all of the necessary files to begin integrating our photo printing API. For next steps, see the section on 'Integration' below.
+
+## Manual Installation
 
 Installing PopUpLibLib.framework is simple.
 

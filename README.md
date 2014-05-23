@@ -59,7 +59,7 @@ There are two main files included with the framework.
 |**PopUpLib.h**| The file you include in your project i.e. `#import <PopUpLib/PopUpLib.h>` |
 |**PopUpStoreController.h**| The view controller you will need to initiate and present |
 
-1. Choose where your users will launch the Pop-up Store Controller. Inside the header file for your controller, add `#import <PopUp/PopUpLib.h>` and implement the `PopupStoreControllerDelegate` protocol:
+1. Choose where your users will launch the Pop-up Store Controller. Inside the header file for your controller, add `#import <PopUpLib/PopUpLib.h>` and implement the `PopupStoreControllerDelegate` protocol:
     ````objective-c
     @interface ViewController : UIViewController <PopupStoreControllerDelegate> {
     }

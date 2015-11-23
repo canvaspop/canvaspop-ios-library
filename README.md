@@ -11,7 +11,7 @@ Once a print is purchased within your application, our designers can turn any im
 
 ![lib-screenshot](https://cp-static.s3.amazonaws.com/popupstore/documentation/lib-screenshot.png)
 
-**Current version:** 1.0.6 [(download)](https://github.com/canvaspop/canvaspop-ios-library/archive/master.zip)
+**Current version:** 1.0.7 [(download)](https://github.com/canvaspop/canvaspop-ios-library/archive/master.zip)
 
 ## Installation via Cocoapods
 

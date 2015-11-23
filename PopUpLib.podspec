@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name  = 'PopUpLib'
-  s.version = '1.0.6'
+  s.version = '1.0.7'
   s.platform = :ios
   s.summary = 'Allow users to print images on canvas.'
   s.description = 'Allows app developers, brands, and website owners to monetize their visual content and make it easy for their customers to turn their images into beautiful canvas prints.'

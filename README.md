@@ -45,7 +45,29 @@ Installing PopUpLibLib.framework is simple.
     ![lib-dep1](https://cp-static.s3.amazonaws.com/popupstore/documentation/lib4.png)
     ![lib-dep1](https://cp-static.s3.amazonaws.com/popupstore/documentation/lib5.png)
 
-    
+4. If you are supporting iOS 9 or later, in your app's `Info.plist` file, add the following:
+```
+<key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>d1ijy107mi4qfw.cloudfront.net</key>
+            <dict>
+                <key>NSThirdPartyExceptionMinimumTLSVersion</key>
+                <string>TLSv1.0</string>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                <false/>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+```
+
+This ensures the library is able to display all web assets correctly when App Transport Security behaviours are in place. For more on App Transport Security in iOS 9 see [here](https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html).
+
+![Info.plis](https://cp-static.s3.amazonaws.com/popupstore/documentation/plist.png)
+
 If you encounter any issues, please feel free to report them here: https://github.com/canvaspop/canvaspop-ios-library/issues
 
 ## Integration

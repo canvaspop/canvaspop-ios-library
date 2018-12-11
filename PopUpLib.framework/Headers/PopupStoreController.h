@@ -3,7 +3,7 @@
 //  PopUpLib
 //
 //  Created by CanvasPop on 11/1/2013.
-//  Copyright (c) 2013 CanvasPop. All rights reserved.
+//  Copyright (c) 2018 CanvasPop. All rights reserved.
 //
 
 @import UIKit;
@@ -15,7 +15,7 @@
 ///--------------------------------------------------
 #pragma mark - Public Interface
 
-@interface PopupStoreController : UIViewController <UIWebViewDelegate>
+@interface PopupStoreController : UIViewController <UIWebViewDelegate,NSURLSessionDelegate>
 
 /**
  *  Your CanvasPop Partner API key.
@@ -49,7 +49,7 @@
  *
  *  @return An instance of our view controller class.
  */
-- (instancetype)initWithImage:(UIImage *)image applicationKey:(NSString *)applicationKey delegate:(id<PopupStoreControllerDelegate>)delegate;
+- (instancetype)initWithImage:(UIImage *)image applicationKey:(NSString *)appKey delegate:(id<PopupStoreControllerDelegate>)aDelegate;
 
 @end
 
